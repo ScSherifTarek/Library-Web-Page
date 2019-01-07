@@ -1,0 +1,75 @@
+*
+{
+    transition: 500ms all;
+}
+body
+{
+    font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+.nav_bar
+{
+    height: 170px;
+}
+.welcome
+{
+    background-image: url(../images/slide.jpg);
+    height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cat,.books
+{
+    margin-top: 52px;
+    text-align: center;
+    color:#1c1d1d;
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+.cat .container h2,
+.books .container h2
+
+{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight:500;
+}
+.line
+{
+    width:50px;
+    background-color: #1c1d1d;
+    height: 2px;
+    margin:20px auto;
+}
+.cat .container .content,
+.books .container .content
+{
+    margin-top:60px;
+}
+.cat .container .content .item
+{
+    padding:20px ;
+}
+.cat .container .content .item:hover
+{
+    background-color:#eee;
+}
+.cat  .container .content .img-responsive,
+.books  .container .content .img-responsive
+{
+    margin: auto;
+}
+.books  .container .content .img-responsive
+{
+    margin-bottom: 20px;
+}
+.books .container .content .item
+{
+    padding:60px ;
+    
+}
+.books .item img:hover {
+    transform: translateZ(-999px) scale(1.5);
+    z-index: 3;
+}
